@@ -1,5 +1,7 @@
 package Fundamentals.mod02;
 
+import java.util.Arrays;
+
 public class DisplayingStuff {
   public static void main(String[] args) {
     int a = 4, b = 9, c = 10, d = 3;
@@ -22,5 +24,6 @@ public class DisplayingStuff {
   public static void addAndDisplay(int num1, int num2) {
     int sum = add(num1, num2);
     display(num1, num2, sum);
+    
   }
 }

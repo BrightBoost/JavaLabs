@@ -1,6 +1,6 @@
 package vehicles;
 
-public class Vehicle {
+public abstract class Vehicle {
   private String vin;
   private String color;
   private int maxSpeed;
@@ -39,9 +39,7 @@ public class Vehicle {
     this.maxSpeed = maxSpeed;
   }
 
-  public void makeWarningSound() {
-    System.out.println("Watch out!");
-  }
+  public abstract void makeWarningSound();
 
 
 }

@@ -28,5 +28,11 @@ public class Dog extends Animal {
 
   public void setIsGoodDog(boolean isGoodDog) {
     this.isGoodDog = isGoodDog;
+  }
+
+  @Override
+  public void eat() {
+    System.out.println("Dog eating");
+    
   } 
 }

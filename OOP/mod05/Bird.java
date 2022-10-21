@@ -1,5 +1,7 @@
 package OOP.mod05;
 
+import java.util.Collections;
+
 public class Bird extends Animal implements Predator, Prey {
 
   @Override
@@ -11,5 +13,7 @@ public class Bird extends Animal implements Predator, Prey {
   public void runAndHide() {
     System.out.println("fly and hide");
   }
+
+  
 
 }
